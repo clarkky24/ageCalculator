@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-H5z5Zi0Vg3qJLM2iA3KwYivnkiYTXNlEzHfRsuZfLGK1GNzXb6Uv1cU7jk6I10P6K/QPmOWdOKsFJbZUz2K9Xw==" crossorigin="anonymous" />
+  
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <form action="">
+  <div class="inputDate">
+    <div class="inputGrid">
+      <label for="day" class="day">DAY</label>
+      <input type="number" id="day" placeholder="01">
+    </div>
+
+    <div class="inputGrid">
+      <label for="month" class="month">MONTH</label>
+      <input type="number" id="month" placeholder="02">
+    </div>
+    <div class="inputGrid">
+      <label for="year" class="year">YEAR</label>
+      <input type="number" id="year" placeholder="1999">
+    </div>
+
+      <!-- <div class="greeting"><i class="fa-regular fa-cake-candles"></i><i class="fa-regular fa-balloons"></i><i class="fa-thin fa-beer-mug"></i></div> -->
+  </div>
+  <button id="btn">CALCULATE BIRTHDAY</button>
+</form>
+  <div class="birthday">
+    <h1><strong class="strongYear"></strong> years</h1>
+    <h1><strong class="strongMonth"></strong> months</h1>
+    <h1><strong class="strongDay"></strong> days</h1>
+  </div>
+  <div id="errorHandler"></div>
+</div>
+
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">clarkky</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
