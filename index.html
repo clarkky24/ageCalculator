@@ -22,7 +22,7 @@
 <body>
 
 <div class="container">
-  <form action="">
+  <form id="my-form">
   <div class="inputDate">
     <div class="inputGrid">
       <label for="day" class="day">DAY</label>
@@ -31,7 +31,7 @@
 
     <div class="inputGrid">
       <label for="month" class="month">MONTH</label>
-      <input type="number" id="month" placeholder="02">
+      <input type="number" id="month" placeholder="12">
     </div>
     <div class="inputGrid">
       <label for="year" class="year">YEAR</label>
@@ -43,13 +43,13 @@
   <button id="btn">CALCULATE BIRTHDAY</button>
 </form>
   <div class="birthday">
-    <h1><strong class="strongYear"></strong> years</h1>
-    <h1><strong class="strongMonth"></strong> months</h1>
-    <h1><strong class="strongDay"></strong> days</h1>
+    <label for="birth" id="greet"></label>
+    <h1><strong class="strongYear strongStyle" ></strong> YEARS</h1>
+    <h1><strong class="strongMonth strongStyle"></strong> MONTHS</h1>
+    <h1><strong class="strongDay strongStyle"></strong> DAYS</h1>
   </div>
-  <div id="errorHandler"></div>
+  <div><h3 id="errorHandler"></h3></div>
 </div>
-
 
 
 
