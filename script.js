@@ -33,6 +33,9 @@ function calculateAge(birthdate) {
     errorHandler.style.letterSpacing = '2px';
     errorHandler.style.marginBottom = '1em';
     errorHandler.style.fontWeight = '400';
+    strongYear.textContent =  '';
+    strongMonth.textContent = '';         
+    strongDay.textContent = '';
     return;
   } else{
     errorHandler.textContent ='';
@@ -47,6 +50,9 @@ function calculateAge(birthdate) {
     errorHandler.style.letterSpacing = '2px';
     errorHandler.style.marginBottom = '1em';
     errorHandler.style.fontWeight = '400';
+    strongYear.textContent =  '';
+    strongMonth.textContent = '';         
+    strongDay.textContent = '';
     return;
   }else{
     errorHandler.textContent ='';

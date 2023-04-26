@@ -75,3 +75,22 @@ input::placeholder {
     font-size: 2em;
     
 } */
+
+@media (min-width: 768px) {
+    .container{
+        width: 60%;
+        padding: 3em 6em 1em 6em ;
+    }
+    .inputDate{
+        margin: 3em -1em 1.5em -1em;
+       gap: .5em;
+   
+   }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        width: 50%;
+        padding: 3em 8em 1em 8em ;
+    }
+}
